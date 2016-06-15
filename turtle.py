@@ -47,7 +47,12 @@ def circle(t, r):
 	arc(t, r, 360)
 
 
-
+try:
+    # see if Swampy is installed as a package
+    from swampy.TurtleWorld import *
+except ImportError:
+    # otherwise see if the modules are on the PYTHONPATH
+    from TurtleWorld import *
 
 
 
