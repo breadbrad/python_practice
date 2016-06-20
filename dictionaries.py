@@ -65,6 +65,13 @@ def fibonacci(n):
 	return res 
 
 
+## global variable 
+def example1():
+	global counter 
+	counter += 1
+
+## long integers L at the end indicates the result is a long integer 
+
 
 
 
