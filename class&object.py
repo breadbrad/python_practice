@@ -23,18 +23,18 @@ y = copy.copy(x)
 	x -> obj
 		  ^
 	      |
-	      y			
+	      y
 '''
 
 # *********************** # 
 
 
 z = copy.deepcopy(x)
-''' deep copy 
-	obj obj 
-	 ^   ^ 
+''' deep copy
+	obj obj
+	 ^   ^
 	 |   |
-	 x 	 z 
+	 x 	 z
 '''
 
 
